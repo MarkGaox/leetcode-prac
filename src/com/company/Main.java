@@ -15,7 +15,9 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        int[] nums = {17,231,-23,585,6,1, 342, 54, 57,  4324};
+        QuickSort a = new QuickSort();
+        a.QuickSort(nums,0, nums.length - 1);
     }
 
     public int[] twoSum(int[] nums, int target) {
