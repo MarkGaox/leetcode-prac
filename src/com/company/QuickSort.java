@@ -10,7 +10,7 @@ public class QuickSort {
     }
 
     public static void QuickSort(int[] nums, int l, int h) {
-        System.out.println(Arrays.toString(nums));
+        //System.out.println(Arrays.toString(nums));
         if (l < h) {
             int index = partition(nums, l, h);
             QuickSort(nums, l, index -1);

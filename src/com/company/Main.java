@@ -15,9 +15,18 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
+
+        // QuickSort test
         int[] nums = {17,231,-23,585,6,1, 342, 54, 57,  4324};
         QuickSort a = new QuickSort();
         a.QuickSort(nums,0, nums.length - 1);
+
+        // Kth largest element test
+        int[] b = {3,2,3,1,2,4,5,5,6};
+        int[] c = {3,1,2,4,5,6,7,9};
+        KthLargest k = new KthLargest();
+        k.findKthLargest(c, 4);
+        System.out.println(Arrays.toString(c));
     }
 
     public int[] twoSum(int[] nums, int target) {
