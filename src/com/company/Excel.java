@@ -46,7 +46,7 @@ public class Excel {
     }
 }
 /*
-Two key things. First, we need to understand how to use StringBuilder to save the memory.
+Two key things. First, we need to understand how to use StringBuilder to save the memory.(use reverse to save runtime)
 Second, we need to understand the best way to convert a integer to a character by UTF-8.
 'A' -> 65
  */
