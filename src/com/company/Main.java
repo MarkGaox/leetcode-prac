@@ -26,7 +26,12 @@ public class Main {
         int[] c = {3,1,2,4,5,6,7,9};
         KthLargest k = new KthLargest();
         k.findKthLargest(c, 4);
-        System.out.println(Arrays.toString(c));
+        //System.out.println(Arrays.toString(c));
+
+        // test longestCommonPrefix to see why it works.
+        String[] q = {"flower", "floor", "flight"};
+        LongestCommonPrefix tset = new LongestCommonPrefix();
+        String qwq = tset.longestCommonPrefix(q);
     }
 
     public int[] twoSum(int[] nums, int target) {
