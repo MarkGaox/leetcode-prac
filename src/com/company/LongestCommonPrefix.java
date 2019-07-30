@@ -13,7 +13,7 @@ Output: "fl"
 Example 2:
 
 Input: ["dog","racecar","car"]
-Output: ""
+Output: """
 Explanation: There is no common prefix among the input strings.
 Note:
 
